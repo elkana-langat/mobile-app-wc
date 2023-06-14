@@ -29,7 +29,7 @@ public class UserController {
         returnValue.setFirstName(userDetails.getFirstName());
         returnValue.setLastName(userDetails.getLastName());
         returnValue.setEmail(userDetails.getEmail());
-
+        
         return new ResponseEntity<UserRest>(returnValue, HttpStatus.OK);
     }
 
